@@ -1,0 +1,26 @@
+{
+  "name": "amitkknzz",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "amitkknz"
+  ],
+  "homepage": "https://github.com/coderbhaai/amitkknzz#readme",
+  "bugs": {
+    "url": "https://github.com/coderbhaai/amitkknzz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderbhaai/amitkknzz.git"
+  },
+  "license": "ISC",
+  "author": "Amit Kumar Khare || Rohit Sharma",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git": "git add . && git commit -a -m `commit` && git push",
+        "push": "git add . && git commit -a -m `commit` && git push"
+
+  }
+}
