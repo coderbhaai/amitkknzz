@@ -20,7 +20,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "git": "git add . && git commit -a -m `commit` && git push",
-        "push": "git add . && git commit -a -m `commit` && git push"
-
+    "push": "git add . && git commit -a -m `commit` && git push",
+    "dev": "nodemon --experimental-modules index.js"
+  },
+  "execMap": {
+    "js": "node --experimental-modules"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
+    "axios": "^1.8.4",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@types/react-redux": "^7.1.34",
+    "typescript": "^5.8.2"
   }
 }
